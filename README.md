@@ -20,8 +20,7 @@ Integrating the extractor with the CEGAR variant of the value analysis is a prom
 ## Links
 
 [CPAchecker Project](https://cpachecker.sosy-lab.org)  
-[Gitlab Branch](https://gitlab.com/sosy-lab/software/cpachecker/-/commits/CollateralCoverageDetectionWithValueAnalysis-extractor?ref_type=heads)
-
+[Gitlab Branch](https://gitlab.com/sosy-lab/software/cpachecker/-/tree/CollateralCoverageDetectionWithValueAnalysis-extractor)
 
 ## Options for running  cpachecker with extractor component.
 cpachecker --config /config/testCaseGeneration-valueAnalysis-Extractor.properties --option testcase.xml=test-suite/testcase%d.xml path/to/c-file.c
